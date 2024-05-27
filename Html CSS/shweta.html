@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wikipedia</title>
+    <link rel="stylesheet" href="./Style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<style>
+    .header{
+    height:120px;
+    width: 1280px;
+    /* border: 1px solid black; */
+}
+.logo{
+    height: 50px;
+    width: 50px;
+    margin-left: 80px;
+    margin-top: 6px;
+}
+.Wikipedia{
+    height: 50px;
+    width: 180px;
+}
+.input {
+    
+        display: flex;
+        align-items: center;
+        margin-left: 350px;
+        position: relative;
+        bottom: 45px;
+}
+.searchbar{
+    padding: 8px;
+    border: 1px solid #a6b4c2;
+    outline: none;
+    width: 350px;
+
+
+}
+button{
+    padding: 8px 15px;
+    color: rgb(0, 0, 0);
+    border: 1px solid black;
+    cursor: pointer;
+}
+button:hover {
+    background-color:white;
+}
+.links{
+    position: relative;
+    left: 1009px;
+    bottom: 100px;
+    position: absolute;
+    top: 30px;
+    right: 20px;
+
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+#line{
+    position: relative;
+    bottom: 70px;
+    left: 50px;
+}
+.dots{
+    position: relative;
+    left: 1170px;
+    bottom: 106px;
+    position: absolute;
+    top: 30px;
+    right: 20px;
+}
+/* Hide the checkbox */
+#toggle-dropdown {
+    display: none;
+}
+/* Style the label to look like the icon */
+.icon{
+    cursor: pointer;
+}
+/* Style the dropdown menu to be hidden by default */
+.dropdown-menu {
+     display: none;
+    border: 1px solid black;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 160px;
+    max-height: 300px;/* Set a maximum height for scrollbar */
+    background-color: white;
+    overflow-y: auto; /* Add scrollbar when content overflows */
+}
+/* When the checkbox is checked, display the dropdown menu */
+#toggle-dropdown:checked + .icon + .dropdown-menu {
+    display: block;
+}
+hr{
+    width: 1000px;
+    /* height: 10px; */
+    border: 1px solid rgb(160, 196, 210);
+    position: relative;
+    bottom: 20px;
+}
+.text{
+    display:flex;
+}
+.MainPage{
+ position:relative;
+ left: 140px;
+}
+.Talk{
+    position: relative;
+    left: 160px;
+
+}
+.Read{
+    position: relative;
+    left: 690px;
+}
+.Viewsource{
+    position: relative;
+    left: 710px;
+}
+.Viewhistory{
+    position: relative;
+    left: 740px;
+
+}
+.Tools{
+    position: relative;
+    left: 770px;
+}
+.welcome{
+    border: 1px solid rgb(160, 196, 210);
+    height: 95px;
+    width: 1000px;
+    position: relative;
+    left: 130px;
+    bottom: 15px;
+    background-color: #eaebec;
+}
+.p1{
+    position: relative;
+    left: 430px;
+    bottom: 10px;
+}
+.p2{
+    position: relative;
+    left: 370px;
+    bottom: 20px;
+}
+.p3{
+    position: relative;
+    left: 420px;
+    bottom: 30px;
+}
+.main1{
+    border: 1px solid black;
+    height: 800px;
+    width: 530px;
+    position: relative;
+    left: 130px;
+    bottom: 7px;
+
+}
+.mname{
+    border: 1px solid black;
+    height: 30px;
+    width: 510px;
+    position: relative;
+    left: 10px;
+    top: 8px;
+    background-color:rgb(202, 221, 227);
+}
+.mariatitle{
+    position: relative;
+    left: 10px;
+    bottom: 10px;
+    font-family: monospace;
+    font-size: 15px;
+    
+}
+
+.main2{
+    border: 1px solid black;
+    height: 800px;
+    width: 460px;
+    position: relative;
+    left: 670px;
+    bottom: 810px;
+}
+</style>
+<body>
+    <header class="header">
+        <img src="./images.jpeg" alt="Wikipedia logo" class="logo">
+        <a href="https://en.wikipedia.org/wiki/Main_Page" target="_blank">
+            <img src="./w.jpeg" alt="Wikipedia" class="Wikipedia">
+        </a>
+        <div class="input">
+            <input type="text" placeholder="Search Wikipedia" class="searchbar"> 
+            <button>Search</button>
+        </div>
+        <div class="list">
+            <input type="checkbox" id="toggle-dropdown">
+            <label for="toggle-dropdown" class="icon"><i class="fa-solid fa-bars" id="line" ></i>
+            </label>
+            <ul class="dropdown-menu">
+                <li><a href=""><em>Main menu</em></a> </li><br>
+                <li><a href="">Mian page</a> </li><br>
+                <li> <a href="">content</a></li><br>
+                <li><a href="">current events</a></li><br>
+                <li><a href="">Random article</a></li><br>
+                <li><a href="">About Wikipedia</a></li><br>
+                <li><a href="">Contact us</a></li><br>
+                <li><a href="">Donate</a></li><br>
+                <li>Contrubute</li><hr><br>
+                <li><a href="">Help</a></li><br>
+                <li> <a href="">Learn to edit</a></li><br>
+                <li><a href="">Community portal</a></li><br>
+                <li><a href="">Recent changes</a></li><br>
+                <li><a href="">Upload file</a></li><br>
+            </ul>
+        </div>
+        
+        <div class="links">
+            <a href="https://en.wikipedia.org/w/index.php?title=Special:CreateAccount&returnto=Main+Page">Create Account</a>
+            <a href="">Log in</a>
+        </div>
+        <i class="fa-solid fa-ellipsis dots"></i>
+     </header>
+     <div class="text">
+        <p class="MainPage">Main Page</p>
+        <p class="Talk">Talk</p>
+        <p class="Read">Read</p>
+        <p class="Viewsource">View sourde</p>
+        <p class="Viewhistory">View history</p>
+        <p class="Tools">Tools</p>
+    </div>
+    <hr>
+    <div class="welcome">
+        <p class="p1">Welcome to <a href="https://en.wikipedia.org/wiki/Wikipedia">Wikipedia</a>,</p>
+        <p class="p2">the<a href="https://en.wikipedia.org/wiki/Free_content"> free encyclopedia</a> that <a href="https://en.wikipedia.org/wiki/Help:Introduction_to_Wikipedia">anyone can edit.</a></p>
+        <p class="p3"><a href="">6,811,629</a> articles in <a href="https://en.wikipedia.org/wiki/English_language">English</a></p>
+    </div>
+    <div class="main1">
+        <div class="mname">
+            <p><b class="mariatitle">From today's featured article</b></p>
+        </div>
+
+    </div>
+    <div class="main2">
+
+    </div>
+
+
+    
+</body>
+</html>

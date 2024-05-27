@@ -1,0 +1,210 @@
+.container{
+    border: 1px solid black;
+    height: 850px;
+    width: 500px;
+    position:absolute;
+    left: 50%;
+    top: 60%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    /* border-radius: 20px; */
+}
+h1{
+    font-size:30px;
+    position: relative;
+    left: 10px;
+    color: white;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+/* .icon{
+    height: 50px;
+    width:  50px;
+    justify-content: space-between;
+    float: right;
+} */
+.heart{
+    position: absolute;
+    left: 400px;
+    top: 25px;
+    color: white;
+    font-size: 25px;
+}
+.msg{
+    position: absolute;
+    left: 460px;
+    top: 25px;
+    color: white;
+    font-size: 25px;
+
+}
+.on{
+    height: 20px;
+    width: 20px;
+    background-color: red;
+    color: white;
+    position: relative;
+    top: 20px;
+    right: 7px;
+    border-radius: 25px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+.stories{
+    display: flex;
+    justify-content: space-around;
+}
+.story{
+    width: 80px;
+    height: 80px;
+    border: 3px solid;
+    border-radius: 50%; 
+    display: inline-block;
+    border-top-color: #f09433;
+    border-right-color:#e6683c ;
+    border-left-color: #cc2366 ;
+    border-bottom-color: #bc1888;
+    margin-top: 5px;
+    margin-left: 5px; 
+  }
+  .name{
+    display: flex;
+    justify-content: space-around;
+  }
+  p{
+    width: 80px;
+    height: 80px;
+    color: white;
+    position: relative;
+    bottom: 15px;
+  }
+.bigimg{
+    height: 400px;
+    width: 500px;
+    position: relative;
+    bottom: 70px;
+}
+.post{
+    position: relative;
+    bottom: 590px;
+    color: black;
+    
+}
+.girl{
+    display: flex;
+    position: relative;
+    bottom: 80px;
+    height: 40px;
+    
+}
+.chutki{
+    font-size:large;
+    position: relative;
+    left: 10px;
+    top: 0px;
+    color: white;
+}
+.mp{
+    width: 40px;
+    height: 40px;
+    border: 4px solid;
+    border-radius: 50%; 
+}
+.sub{
+    height: 50px;
+    width:  50px;
+    justify-content: space-between;
+    float: left;
+    position: relative;
+    bottom: 65px;
+    left: 10px;
+    color: white;
+}
+.l1{
+    color: red;
+}
+.l2{
+    position: relative;
+    left: 7px;
+}
+.l3{
+    position: relative;
+    left: 55px;
+    bottom: 16px;
+}
+.l4{
+    position: relative;
+    bottom: 45px;
+    right: 1px;
+}
+.tag{
+    color: white;
+    position: relative;
+    right: 50px;
+    top: 10px;
+    right: 40px;
+    /* bottom: 8px; */
+}
+h3{
+    position: relative;
+    bottom: 30px;
+}
+.L5{
+    position: relative;
+    left: 440px;
+    bottom: 20px;
+}
+.foot{
+    justify-content: space-between;
+    color: white;
+    position: relative;
+    top: 35px;
+    font-size: 35px;
+
+}
+.ho{
+    position: relative;
+    right: 30px;
+}
+.se{
+    position: relative;
+    left: 20px;
+}
+.pl{
+    position: relative;
+    left: 76px;
+}
+.vi{
+    position: relative;
+    left: 160px;
+}
+.cir{
+    border: 1px solid white;
+    height: 39px;
+    border-radius: 50%; 
+    margin-top: 5px;
+    margin-left: 5px; 
+    position: relative;
+    bottom: 15px;
+    left: 430px;
+}
+.but{
+    border-radius: 40px;
+    background-color: black;
+    color: white;
+    position: relative;
+    bottom: 460px;
+    left: 450px;
+}
+.butt{
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    position: relative;
+    bottom: 100px;
+    left: 430px;
+}

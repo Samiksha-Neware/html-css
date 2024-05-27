@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+    <style>
+        .container{
+            display: flex;
+            margin: 20px;
+            border: 6px solid black;
+        }
+        .items{
+            width: 100px;
+            height: 100px;
+        }
+        .item-1{
+            background-color:red;
+            position: relative;
+            top: 100px;
+            left: 100px;
+        }
+        .item-2{
+            background-color: yellow;
+            position: absolute;
+            top: 300px;
+            left: 400px;
+        }
+        .item-3{
+            background-color: blue;
+        }
+        .item-4{
+            background: green;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="items item-1"></div>
+        <div class="items item-2"></div>
+        <div class="items item-3"></div>
+        <div class="items item-4"></div>
+    </div>
+    <!--Position Properties-->
+    <!--
+        1. Static
+        2. relative
+        3. absolute
+        4. fixed
+        5. Sticky
+    -->
+</body>
+</html>
